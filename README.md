@@ -2,7 +2,7 @@
 
   YOLO is regarded as a famous object detection algorithm that now has multiple versions. YOLO is a 1-stage detector model which means it simultaneously performs regional proposal and classification. 
 Backbone is a Convolutional Neural Network (CNN) formed by combining features of images in multiple particle sizes. The neck comprises a series of layers that mix and combine image features to transfer before prediction, and the Head uses the transferred features from the Neck (PAnet) and goes through the box and class prediction process. The remarkable feature of YOLOv5 is the Focus and CSP (cross-stage partial connections) layer.
-YOLOv5 uses the same head as YOLOv3 and YOLOv4 as seen in Figure 1. It is composed of three convolution layers that predict the location of the bounding boxes (x, y, height, width), the scores and the objects classes.
+YOLOv5 uses the same head as YOLOv3 and YOLOv4 as seen in the figure below. It is composed of three convolution layers that predict the location of the bounding boxes (x, y, height, width), the scores and the objects classes.
 
 ![image](https://github.com/JBascos/Custom-trained-Yolov5-for-Object-Detection/assets/150259866/c9370b3f-b1aa-45ca-8fcf-50ad0d2cee07)
 
